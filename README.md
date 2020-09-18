@@ -4,11 +4,11 @@
 
 1. Clone the project.
     ```shell
-    $ git clone https://github.com/tinktankin/myMsg.git
+    $ git clone https://github.com/Hrithik0707/Qzzo_task.git
     ```
 2. `cd` intro the project directory
     ```shell
-    $ cd myMsg
+    $ cd Qzzo
     ```
 3. Create a new virtual environment using Python 3.7 and activate it.
     ```shell
