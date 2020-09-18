@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+</head>
+<body>
+    {% for u in user %}
+        <h1>First Name : {{u.first_name}}</h1>
+        <h1>Last Name  : {{u.last_name}}</h1>
+        <h1>Unique_ID  : {{u.unique_id}}</h1>
+        <h1>Age        : {{u.age}}</h1>
+        <h1>Email      : {{u.email}}</h1>
+        <img src="{{u.image.url}}" alt="No Image">
+
+    {% endfor%}
+</body>
+</html>
